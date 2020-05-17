@@ -1,0 +1,1 @@
+This is a weather website created while learning Node.js.
