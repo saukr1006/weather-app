@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
             }else{
                 messageOne.textContent = data.location
-                messageTwo.textContent = "The current temperature is "+data.forecast+" degree celcius"
+                messageTwo.textContent = "The current weather is "+data.forecast
             }
         })
     })
