@@ -1,13 +1,14 @@
 body {
-    color: #333333;
+    background-image: url('/img/1.jpg');
+    background-size: 100%;
+    color: skyblue;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .main-content {

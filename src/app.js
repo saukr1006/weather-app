@@ -29,14 +29,14 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Me',
+        title: 'About',
         name: 'Saurabh'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'To be filled later.',
         title: 'Help',
         name: 'Saurabh'
     })
@@ -62,19 +62,6 @@ app.get('/weather', (req, res) => {
                 address:req.query.address
             }) 
         })
-    })
-})
-
-app.get('/products',(req,res)=>{
-    if(!req.query.search)
-    {
-        return res.send({
-            Error:"provide the search term"
-        })
-    }
-
-    res.send({
-        products:[]
     })
 })
 
